@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FeatureIDE UI Plug-In
+Bundle-SymbolicName: de.ovgu.featureide.ui;singleton:=true
+Bundle-Version: 3.8.3.202206011926
+Bundle-Activator: de.ovgu.featureide.ui.UIPlugin
+Bundle-Localization: 
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.ui.i
+ de,org.eclipse.jdt.ui,org.eclipse.gef,org.eclipse.core.expressions,org.
+ eclipse.core.resources,de.ovgu.featureide.fm.core,de.ovgu.featureide.fm
+ .ui,de.ovgu.featureide.core
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/FeatureIDEAnnotations.jar,.
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: University of Magdeburg
+Export-Package: de.ovgu.featureide,de.ovgu.featureide.ui;uses:="org.ecli
+ pse.swt.graphics,de.ovgu.featureide.fm.ui,org.osgi.framework",de.ovgu.f
+ eatureide.ui.actions,de.ovgu.featureide.ui.actions.generator,de.ovgu.fe
+ atureide.ui.actions.generator.configuration,de.ovgu.featureide.ui.actio
+ ns.generator.sorter,de.ovgu.featureide.ui.decorators,de.ovgu.featureide
+ .ui.editors,de.ovgu.featureide.ui.editors.annotation,de.ovgu.featureide
+ .ui.handlers,de.ovgu.featureide.ui.handlers.base,de.ovgu.featureide.ui.
+ perspective,de.ovgu.featureide.ui.projectExplorer,de.ovgu.featureide.ui
+ .properties,de.ovgu.featureide.ui.quickfix,de.ovgu.featureide.ui.statis
+ tics.core,de.ovgu.featureide.ui.statistics.core.composite,de.ovgu.featu
+ reide.ui.statistics.core.composite.lazyimplementations,de.ovgu.featurei
+ de.ui.statistics.core.composite.lazyimplementations.genericdatatypes,de
+ .ovgu.featureide.ui.statistics.ui,de.ovgu.featureide.ui.statistics.ui.h
+ elper,de.ovgu.featureide.ui.statistics.ui.helper.jobs,de.ovgu.featureid
+ e.ui.views.collaboration; uses:="org.eclipse.core.runtime,  de.ovgu.fea
+ tureide.core,  org.eclipse.ui,  org.eclipse.core.resources,  org.eclips
+ e.draw2d.geometry,  org.eclipse.swt.graphics,  de.ovgu.featureide.core.
+ listeners,  org.eclipse.ui.part,  org.eclipse.draw2d,  org.eclipse.swt.
+ widgets",de.ovgu.featureide.ui.views.collaboration.action; uses:="org.e
+ clipse.jface.action,  org.eclipse.swt.graphics,  de.ovgu.featureide.ui.
+ views.collaboration,  org.eclipse.gef.ui.parts,  de.ovgu.featureide.fm.
+ core",de.ovgu.featureide.ui.views.collaboration.editparts,de.ovgu.featu
+ reide.ui.views.collaboration.figures,de.ovgu.featureide.ui.views.collab
+ oration.model; uses:="org.eclipse.ui,  de.ovgu.featureide.core.fstmodel
+ ,  org.eclipse.ui.part,  de.ovgu.featureide.ui.views.collaboration,  or
+ g.eclipse.jface.action,  de.ovgu.featureide.core,  org.eclipse.core.res
+ ources,  org.eclipse.jface.viewers,  org.eclipse.swt.graphics,  de.ovgu
+ .featureide.core.listeners,  org.eclipse.jface.util,  org.eclipse.swt.w
+ idgets",de.ovgu.featureide.ui.views.collaboration.outline,de.ovgu.featu
+ reide.ui.views.collaboration.outline.filters,de.ovgu.featureide.ui.view
+ s.collaboration.policy,de.ovgu.featureide.ui.views.configMap,de.ovgu.fe
+ atureide.ui.views.configMap.actions,de.ovgu.featureide.ui.views.configM
+ ap.filters,de.ovgu.featureide.ui.views.configMap.header,de.ovgu.feature
+ ide.ui.wizards; uses:="org.eclipse.jface.wizard,  de.ovgu.featureide.co
+ re,  org.eclipse.ui,  org.eclipse.ui.wizards.newresource,  org.eclipse.
+ core.resources,  org.eclipse.jface.viewers,  org.eclipse.swt.widgets,  
+ org.eclipse.swt.layout,  de.ovgu.featureide.core.builder,  de.ovgu.feat
+ ureide.fm.core"
+Import-Package: org.eclipse.debug.ui,org.eclipse.jdt.core,org.eclipse.jd
+ t.core.compiler.batch,org.eclipse.jdt.internal.core,org.eclipse.jdt.int
+ ernal.ui.javaeditor,org.eclipse.jface.text,org.eclipse.jface.text.conte
+ ntassist,org.eclipse.jface.text.source,org.eclipse.ui.texteditor,org.ju
+ nit.runner;resolution:=optional,org.junit.runner.notification;resolutio
+ n:=optional
+Automatic-Module-Name: de.ovgu.featureide.ui
+
+

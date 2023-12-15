@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.7"?>
+<target name="UCDetector headless">
+	<locations>
+    <!-- =======================================================================
+    Change next line or
+    edit this file with Eclipse target editor
+    for custom target platform
+    ======================================================================== -->
+		<location path="/opt/eclipse-3.7" type="Directory"/>
+	</locations>
+</target>

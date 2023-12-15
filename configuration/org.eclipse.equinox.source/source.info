@@ -1,0 +1,7 @@
+#encoding=UTF-8
+#version=1
+org.sonarlint.eclipse.cdt.source,7.3.1.45470,plugins/org.sonarlint.eclipse.cdt.source_7.3.1.45470.jar,-1,false
+org.sonarlint.eclipse.core.source,7.3.1.45470,plugins/org.sonarlint.eclipse.core.source_7.3.1.45470.jar,-1,false
+org.sonarlint.eclipse.jdt.source,7.3.1.45470,plugins/org.sonarlint.eclipse.jdt.source_7.3.1.45470.jar,-1,false
+org.sonarlint.eclipse.m2e.source,7.3.1.45470,plugins/org.sonarlint.eclipse.m2e.source_7.3.1.45470.jar,-1,false
+org.sonarlint.eclipse.ui.source,7.3.1.45470,plugins/org.sonarlint.eclipse.ui.source_7.3.1.45470.jar,-1,false

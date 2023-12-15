@@ -1,0 +1,9 @@
+UCDetector version: 2.0.0
+Date created      : 2017-03-16 21:21 +0100
+Java version      : 1.6.0_23-b05 - Sun Microsystems Inc.
+Eclipse buildId   : I20090611-1540
+Eclipse version   : 3.5.0.v20090520
+Eclipse profile   : SDKProfile
+Operation system  : Linux
+SVN version       : 1936
+Provided by       : Joerg Spieler

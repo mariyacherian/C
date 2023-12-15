@@ -1,0 +1,415 @@
+Manifest-Version: 1.0
+Created-By: Eclipse Bundle Recipe Maven Plug-in
+Built-By: default
+Build-Jdk: 11.0.9
+Automatic-Module-Name: org.junit.platform.launcher
+Build-Date: 2021-09-22
+Build-Revision: 9883ffa5ab9ddb27ce33f6d2ace9f6be16403f40
+Build-Time: 20:54:36.897+0200
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundleName
+Bundle-SymbolicName: org.junit.platform.launcher
+Bundle-Vendor: %bundleVendor
+Bundle-Version: 1.8.1.v20211018-1956
+Export-Package: org.junit.platform.launcher;version="1.8.1";status=STABL
+ E;uses:="org.apiguardian.api,org.junit.platform.commons,org.junit.platf
+ orm.engine,org.junit.platform.engine.reporting",org.junit.platform.laun
+ cher.core;version="1.8.1";status=STABLE;uses:="org.apiguardian.api,org.
+ junit.platform.commons,org.junit.platform.engine,org.junit.platform.lau
+ ncher",org.junit.platform.launcher.listeners;version="1.8.1";status=MAI
+ NTAINED;uses:="org.apiguardian.api,org.junit.platform.engine,org.junit.
+ platform.launcher",org.junit.platform.launcher.listeners.discovery;vers
+ ion="1.8.1";status=EXPERIMENTAL;uses:="org.apiguardian.api,org.junit.pl
+ atform.launcher",org.junit.platform.launcher.listeners.session;version=
+ "1.8.1";status=INTERNAL;uses:="org.apiguardian.api,org.junit.platform.l
+ auncher",org.junit.platform.launcher.tagexpression;version="1.8.1";stat
+ us=INTERNAL;uses:="org.apiguardian.api,org.junit.platform.engine"
+Implementation-Title: junit-platform-launcher
+Implementation-Vendor: junit.org
+Implementation-Version: 1.8.1
+Import-Package: org.junit.platform.engine;version="[1.8.1,2)",org.junit.
+ platform.engine.discovery;version="[1.8.1,2)",org.junit.platform.engine
+ .reporting;version="[1.8.1,2)",org.junit.platform.engine.support.descri
+ ptor;version="[1.8.1,2)",org.apiguardian.api;version="[1.1.2,2)",org.ju
+ nit.platform.commons;resolution:=optional;version="[1.8,2)",org.junit.p
+ latform.commons.logging;resolution:=optional;version="[1.8,2)";status=I
+ NTERNAL,org.junit.platform.commons.util;resolution:=optional;version="[
+ 1.8,2)",org.junit.platform.launcher;resolution:=optional;version="[1.8,
+ 2)",org.junit.platform.launcher.listeners.discovery;resolution:=optiona
+ l;version="[1.8,2)",org.junit.platform.launcher.listeners.session;resol
+ ution:=optional;version="[1.8,2)",org.junit.platform.launcher.tagexpres
+ sion;resolution:=optional;version="[1.8,2)"
+Originally-Created-By: 11.0.12 (Eclipse Foundation 11.0.12+7)
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: junit-platform-launcher
+Specification-Vendor: junit.org
+Specification-Version: 1.8.1
+
+Name: org/junit/platform/launcher/listeners/discovery/LauncherDiscoveryL
+ isteners.class
+SHA-256-Digest: kDABmLPVrtiVLdUrnuOGn2bZxvzLRNWYeJ4x9Dqb4Zo=
+
+Name: org/junit/platform/launcher/tagexpression/Tokenizer.class
+SHA-256-Digest: xBIpdl5azplk/Q3Z0U2DTdWdoohaKp96XNkGZw8Srr8=
+
+Name: org/junit/platform/launcher/tagexpression/TagExpression.class
+SHA-256-Digest: 3vVNQHX/YPwSgLrQVpVvd97GUQm4WC9p+pWfocFz/sM=
+
+Name: org/junit/platform/launcher/tagexpression/ParseResult.class
+SHA-256-Digest: I9mG3VHUMyuFP7BtApT7Rmq67G4GPQ/qRhVSJ/Oy3dE=
+
+Name: org/junit/platform/launcher/listeners/discovery/CompositeLauncherD
+ iscoveryListener.class
+SHA-256-Digest: pqappMgwXFAoULcarVbg4ULttqMJ9bMEcDj3iwLygUo=
+
+Name: org/junit/platform/launcher/core/EngineDiscoveryResultValidator.cl
+ ass
+SHA-256-Digest: 8JGevyCWxQWpj+VAhl0oyXQWVTxxBJbs+ltSEVU2a5s=
+
+Name: org/junit/platform/launcher/core/EngineDiscoveryOrchestrator$Phase
+ .class
+SHA-256-Digest: vkOKwbdF8lYbD/x8anWjk+XJVSXKXIhqtMQ9xP/60AY=
+
+Name: org/junit/platform/launcher/listeners/MutableTestExecutionSummary.
+ class
+SHA-256-Digest: NwdbqmAWxs/HZWyNTAzs0iEbxSiYrLlnAdFgdURKhTQ=
+
+Name: org/junit/platform/launcher/tagexpression/TagExpressions.class
+SHA-256-Digest: xaG1Z9WiZl6gqTrQetjRSqmrK5IHYcoBmC50y1CPpQc=
+
+Name: org/junit/platform/launcher/LauncherSessionListener.class
+SHA-256-Digest: YwICMYIFTj0qSvMpBnzA507giiAXbvS1WRYGEKrG8ZE=
+
+Name: org/junit/platform/launcher/TestIdentifier$SerializedForm.class
+SHA-256-Digest: UDerCGjFOK8QWxONLqS9RQZL5YQ80dXsreJoJZj8yMc=
+
+Name: org/junit/platform/launcher/tagexpression/TagExpressions$1.class
+SHA-256-Digest: xwuFSWhNlbqbMBPpCJLZmo++uTS8rdbz+ZFxQKj0FDI=
+
+Name: org/junit/platform/launcher/core/DefaultLauncherSession$ClosedLaun
+ cher.class
+SHA-256-Digest: ecnQi+9S1oydeN81ABUognJBeBSu6EpwL28kkITEk00=
+
+Name: org/junit/platform/launcher/LauncherDiscoveryListener$1.class
+SHA-256-Digest: dMkbYrrlUzbicZLAOqnPwIwX/xuSH8Y7h5A1DKCQzGE=
+
+Name: org/junit/platform/launcher/EngineFilter.class
+SHA-256-Digest: 5+5C1wZs2W48vU4lx+RMisnmGFnL1TJQfe55jKqvLpk=
+
+Name: org/junit/platform/launcher/core/LauncherConfigurationParameters$P
+ arameterProvider$1.class
+SHA-256-Digest: nuhq7hRuD9pfHjx3D26pxbdcSTCHM0KE6M2+/f/p00M=
+
+Name: org/junit/platform/launcher/core/LauncherConfigurationParameters.c
+ lass
+SHA-256-Digest: iGK/62FkdZM3HKzSKnkYD60R2ClCAI/qlXld/+DqN8k=
+
+Name: org/junit/platform/launcher/core/DefaultDiscoveryRequest.class
+SHA-256-Digest: H8OeshiRYA8YR+giiTQYGA2NSTAPGSkjxzW+bMNVstc=
+
+Name: org/junit/platform/launcher/core/LauncherConfigurationParameters$P
+ arameterProvider$4.class
+SHA-256-Digest: edLaVbDsiuwJ9P8ZGbJhZMIS7TT2HPtnj2H7txjq/CY=
+
+Name: org/junit/platform/launcher/tagexpression/TokenWith.class
+SHA-256-Digest: JA2sOpfHSZC55fS2FQ26TfRlYZptM/kZtoqSlClAFCg=
+
+Name: org/junit/platform/launcher/tagexpression/ParseResults$2.class
+SHA-256-Digest: YykmXD9WDKwC1zPeEpU7N84guF+aKv8nkXKl9OaElas=
+
+Name: org/junit/platform/launcher/core/StreamInterceptor$RewindableByteA
+ rrayOutputStream.class
+SHA-256-Digest: 1Z1emkljl2is4NIMFfgnT1ZBKAxpj6NebrOYJGFGM/s=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: C1420F7ROky/l71emQPVYq6tnL6Lzdx2Qc8RxcKI7Hw=
+
+Name: org/junit/platform/launcher/core/CompositeTestExecutionListener.cl
+ ass
+SHA-256-Digest: +mzQj5UQSuy8qr961C0Od42i7NE/evnMSGK9Z2WhcvQ=
+
+Name: org/junit/platform/launcher/core/CompositeTestExecutionListener$Ea
+ gerTestExecutionListener.class
+SHA-256-Digest: 3j3lcJV5nLKr2l0EmUZ2dcAZor4zRVQVAzsx+lBZ4lQ=
+
+Name: org/junit/platform/launcher/listeners/discovery/LoggingLauncherDis
+ coveryListener$1.class
+SHA-256-Digest: STf5J4a/bHGLsOzguZsCI5szt1Ts+5j2ZTJsQp9I8VY=
+
+Name: org/junit/platform/launcher/core/SessionPerRequestLauncher.class
+SHA-256-Digest: +Y0URO1Z2C302pt1W37d+eYxfij5pJ6WHpx+Y9Oegq4=
+
+Name: org/junit/platform/launcher/core/DelegatingEngineExecutionListener
+ .class
+SHA-256-Digest: Cup3SOosZAQkdVKG9OHh5pBJ1thfZS+AU+eMwzB+864=
+
+Name: org/junit/platform/launcher/core/DefaultLauncherConfig.class
+SHA-256-Digest: Mh+nNIk3jzKm5RO2ndlAOT2xsPGdEuHDHpRCh3968iw=
+
+Name: org/junit/platform/launcher/tagexpression/Operator.class
+SHA-256-Digest: pzkhJ4A6wjne9DPL/p/+gqZLnHGtr0dLuPCIsO6j7Hs=
+
+Name: org/junit/platform/launcher/LauncherConstants.class
+SHA-256-Digest: eX2YUwF6vbrpniZ6X8pxeQiZ57AqTM3w4ogvkKulFXA=
+
+Name: org/junit/platform/launcher/core/InternalTestPlan.class
+SHA-256-Digest: oe1xV2SqxQsCCCTSMiMsoFGqveG4W+XKl8WNbyb2MFY=
+
+Name: org/junit/platform/launcher/tagexpression/Token.class
+SHA-256-Digest: w8h6p6XMyOgXjBDyYFGoFc54gQ2qhp9ydGMWxW96KwI=
+
+Name: org/junit/platform/launcher/LauncherDiscoveryListener.class
+SHA-256-Digest: 344zQI5eLFOHnA2VDgTE5G3p/ex6zqf6EDBu+TbLqvk=
+
+Name: org/junit/platform/launcher/core/LauncherDiscoveryResult.class
+SHA-256-Digest: nv9p3xt9u4SG513JIIhGubV1ROi5zrz+H4hrK41hdfw=
+
+Name: org/junit/platform/launcher/listeners/discovery/LauncherDiscoveryL
+ isteners$LauncherDiscoveryListenerType.class
+SHA-256-Digest: 6wKpE4lS8b3JwSSZ3aaQfJLqIYqey+lBw+/xoaDXCGI=
+
+Name: module-info.class
+SHA-256-Digest: 7xuB8nlcFbKRIx6+gYsLFZ0ACxVI4+2Xafudp+XwpvI=
+
+Name: META-INF/maven/org.eclipse.orbit.bundles/org.junit.platform.launch
+ er/pom.properties
+SHA-256-Digest: BAbuoWW2dibSr5BT4505MzR4iVM31b+thlXSj3Wc2jg=
+
+Name: org/junit/platform/launcher/core/LauncherConfigurationParameters$P
+ arameterProvider$3.class
+SHA-256-Digest: f0G7rjqGhQswcbANaJ6ebEjp/KEUq9SSFQul5DSBICg=
+
+Name: org/junit/platform/launcher/listeners/discovery/LoggingLauncherDis
+ coveryListener.class
+SHA-256-Digest: D+SDhScrgmkH4rKe5b4MTqW3kcrr+vnlPjHNWaYN7iA=
+
+Name: org/junit/platform/launcher/tagexpression/TagExpressions$6.class
+SHA-256-Digest: NDEB0rNFMOzTJuaiSApQCspRPtIv0lj3/4zsWS7x88M=
+
+Name: org/junit/platform/launcher/core/ListenerRegistry.class
+SHA-256-Digest: +n1ZaiAvOhBJZsHgVKknUGreyl3uNTipM2pL0T/V60E=
+
+Name: org/junit/platform/launcher/listeners/session/LauncherSessionListe
+ ners.class
+SHA-256-Digest: O2kmvM3EjokNEz8VzMGVF6bCzof54zUu88HVLd/mC2A=
+
+Name: META-INF/maven/org.eclipse.orbit.bundles/org.junit.platform.launch
+ er/pom.xml
+SHA-256-Digest: juA05bLV+rpKnbZs5dVkwtY5+tGavDOTpja3UqbWxRU=
+
+Name: org/junit/platform/launcher/listeners/TestExecutionSummary$Failure
+ .class
+SHA-256-Digest: UNjXEz0Sc3VhlNAZ+Z5lMd4hVlTbXR86p3HFt56ee1w=
+
+Name: org/junit/platform/launcher/EngineDiscoveryResult$Status.class
+SHA-256-Digest: dZC55jj0y6rst5uWeAuahLvUPZa69Ay23AK8zr37kqA=
+
+Name: org/junit/platform/launcher/listeners/LoggingListener.class
+SHA-256-Digest: 7ak0AfR9NAZJj203WIQAB4o6keq18lOopVYJUBUFM4M=
+
+Name: org/junit/platform/launcher/tagexpression/ParseResults$1.class
+SHA-256-Digest: YOc/DgegBRdavNuVLGPVUJWab/i5+XtbvVYdm/Hyxak=
+
+Name: org/junit/platform/launcher/core/LauncherConfig.class
+SHA-256-Digest: MJYTJjlx5fuxhHo6nHFemaBox11twjnQyXF2T68PBg4=
+
+Name: META-INF/services/org.junit.platform.launcher.TestExecutionListene
+ r
+SHA-256-Digest: FMVYnZApGeYfo35ib3mdOKtaBR/8aLWb95+Ld2atNjQ=
+
+Name: org/junit/platform/launcher/EngineDiscoveryResult.class
+SHA-256-Digest: EsS0QU6Inf6LxNDomMIEa1KEuq0uK9epWHGPaLBaXao=
+
+Name: org/junit/platform/launcher/LauncherDiscoveryRequest.class
+SHA-256-Digest: MkHbmSKcUkFcDOoXuYlEZEVhcc1qoxSQZkj5dntWOlA=
+
+Name: org/junit/platform/launcher/LauncherSessionListener$1.class
+SHA-256-Digest: cXUYHPFBl6h6LN/8VhMPs6LJQG5EPZK94XK53/ULPh8=
+
+Name: org/junit/platform/launcher/core/StreamInterceptingTestExecutionLi
+ stener.class
+SHA-256-Digest: LcPhMUsDws3tW8Avo3bR4gKTo5dV9D+0MaVRA0jop44=
+
+Name: org/junit/platform/launcher/tagexpression/ShuntingYard.class
+SHA-256-Digest: C6oNndAYIJFSD8Ala9KMaDQLuVpjknvUbDjH9YuqLzQ=
+
+Name: org/junit/platform/launcher/tagexpression/DequeStack.class
+SHA-256-Digest: tUNSYojtTD6RTW/rx1+BraqJ1jqSl0rTzRyH8nm57k0=
+
+Name: org/junit/platform/launcher/core/DefaultLauncher.class
+SHA-256-Digest: NdvLFUvsBH88xixkKAXqgyJVtzbmzHaYV1NIsPotMM8=
+
+Name: org/junit/platform/launcher/core/EngineExecutionOrchestrator.class
+SHA-256-Digest: dICIYZhMnX6HWQgCZDg5Jx32zffe6jkvCiqST59Oxc8=
+
+Name: org/junit/platform/launcher/LauncherSession.class
+SHA-256-Digest: gjSPDNH09I84SYhAwb3rMVaFKyPC3DtJGsdMI9lFghY=
+
+Name: org/junit/platform/launcher/core/LauncherFactory.class
+SHA-256-Digest: BacOWSDUpXuvwwY1cCV0gkUb1BO7crHr2EymbTNFVAQ=
+
+Name: org/junit/platform/launcher/core/LauncherConfigurationParameters$P
+ arameterProvider$2.class
+SHA-256-Digest: 2opBSGvXxrDdKXJXKVgO0sIkMybCkM6zA9AM7AFXXzM=
+
+Name: org/junit/platform/launcher/core/OutcomeDelayingEngineExecutionLis
+ tener.class
+SHA-256-Digest: Xo634vdXIRln7mOlIn//QWlZq3IrDt8v+3GRDN/53wI=
+
+Name: org/junit/platform/launcher/tagexpression/TagExpressions$5.class
+SHA-256-Digest: cCUlKmYi09RBbj6kEHjsmhWHAK/nXUdo272fMwjy8rE=
+
+Name: org/junit/platform/launcher/core/ServiceLoaderTestEngineRegistry.c
+ lass
+SHA-256-Digest: GvpDGt56k4RZFkKt9i6diWJUYkYo4UU3rwHn4E6poRA=
+
+Name: org/junit/platform/launcher/tagexpression/Parser.class
+SHA-256-Digest: 4/Qtt9TrmeuClzqvuo3qw8d8HEcAHJWiqvWbPe8FiJ0=
+
+Name: org/junit/platform/launcher/core/EngineDiscoveryErrorDescriptor.cl
+ ass
+SHA-256-Digest: 1hu3tjskL1NDzVH6tgl7h5tH+X+3L98rRDttUBexYQI=
+
+Name: org/junit/platform/launcher/core/EngineDiscoveryOrchestrator.class
+SHA-256-Digest: jmwGZKV69sa5pDEaHHogy5JJ6elgja0A8/l+xSGe6UY=
+
+Name: org/junit/platform/launcher/tagexpression/Operator$Associativity.c
+ lass
+SHA-256-Digest: dk1MJXFO4z+q5lAR787L3kXgwFfbSPSiuKxL3fl0VZU=
+
+Name: org/junit/platform/launcher/Launcher.class
+SHA-256-Digest: HgHD604xXz9DTG5KCEGbALqZ+NiDu0KBVzcSQkSKBfY=
+
+Name: org/junit/platform/launcher/core/LauncherConfig$Builder.class
+SHA-256-Digest: 0GElOF19RNJ93elca25ICkQwDTqLzDcNl2b1SYdfRxI=
+
+Name: org/junit/platform/launcher/core/LauncherDiscoveryRequestBuilder.c
+ lass
+SHA-256-Digest: Rx156V95dDmeh7ODxIWetGNVrjB5NFAq8XLXk1rGZ4k=
+
+Name: org/junit/platform/launcher/tagexpression/ParseStatus.class
+SHA-256-Digest: H5B5eUsuaGllSPP+5OvmeOi0CCv3yPNqG/wBOlPEYaE=
+
+Name: org/junit/platform/launcher/core/EngineIdValidator.class
+SHA-256-Digest: Wvj1LGAOZYmrJA1Lr1aAXPVMkYgUsLdeo/uo16ZL7hU=
+
+Name: org/junit/platform/launcher/listeners/UniqueIdTrackingListener.cla
+ ss
+SHA-256-Digest: XyY/v6+JALzUYGDA3J95rSx6hwecCUVPEA673AWRKuY=
+
+Name: org/junit/platform/launcher/core/LauncherConfigurationParameters$B
+ uilder.class
+SHA-256-Digest: w3zysnCLFiUq4b8AHVWWi2D8i30V3PuVXmILO13NT1k=
+
+Name: about-files/ECLIPSE_PUBLIC_LICENSE_V2.0.html
+SHA-256-Digest: koxKavfpz4JYnlYPmP+7at5zhbWf7Iy07zamu5HPcBg=
+
+Name: org/junit/platform/launcher/core/OutcomeDelayingEngineExecutionLis
+ tener$Outcome.class
+SHA-256-Digest: 8suLpzRiyYSiPwYEbMRTdlDSR+hGjRwHRljYhzs5iR4=
+
+Name: org/junit/platform/launcher/core/LauncherConfigurationParameters$1
+ .class
+SHA-256-Digest: 8j5Wf1pfCE8IZJsluovDnitgeYRYxvkapE9AiUWYBwo=
+
+Name: org/junit/platform/launcher/tagexpression/Stack.class
+SHA-256-Digest: NmICC43XueeOU2HVudY+AJFkCMb4694ZSEZQqSttMC8=
+
+Name: org/junit/platform/launcher/listeners/SummaryGeneratingListener.cl
+ ass
+SHA-256-Digest: NnWVjfOkXR7oHYCu0OovGjfCx6VvdRNmYQkZlesRLJI=
+
+Name: org/junit/platform/launcher/listeners/LegacyReportingUtils.class
+SHA-256-Digest: FaKuyvtsIdSQRz1JgtAeuRJ40cyJ7M88ZE6mVXpsqRs=
+
+Name: org/junit/platform/launcher/core/InternalLauncher.class
+SHA-256-Digest: LSYQZxM2MFMWf4P8DDkI/JENx0UBT4al/Cl7hQnVx/o=
+
+Name: org/junit/platform/launcher/core/ServiceLoaderRegistry.class
+SHA-256-Digest: OylJIO/IbJcS94c+Du6ohxYXNTDk4BOurVRW2MYo8t8=
+
+Name: org/junit/platform/launcher/listeners/session/CompositeLauncherSes
+ sionListener.class
+SHA-256-Digest: lPk2/nwOR7p+BhD3ou4KzZTPnZbLc5PeujesegIcXkY=
+
+Name: org/junit/platform/launcher/tagexpression/ParseResults.class
+SHA-256-Digest: dqAZPSDXy2XRnFm4VuYA0iuCl/RNdpPkSUzmtPNDnEY=
+
+Name: org/junit/platform/launcher/tagexpression/Operator$TagExpressionCr
+ eator.class
+SHA-256-Digest: oAnWIJFQXQ5mUWd3aEtwZJFO0gjmxbRJlNz34A3uDlk=
+
+Name: org/junit/platform/launcher/tagexpression/TagExpressions$2.class
+SHA-256-Digest: RrS/Q2U4+UyY04Vj9jdr6UxMtZvteOj9Rs8bTXh+rXg=
+
+Name: org/junit/platform/launcher/core/DefaultLauncherSession$Delegating
+ Launcher.class
+SHA-256-Digest: aG+z/9XjkXATWbXXCZ5ZtLAPZTfvNUwGdHoHEM7OLb0=
+
+Name: org/junit/platform/launcher/core/LauncherConfig$1.class
+SHA-256-Digest: SZRPIcKdOb/RhrLQvVLz+/yus4N4BjsovKAdkHIim20=
+
+Name: org/junit/platform/launcher/TagFilter.class
+SHA-256-Digest: Pr1wMBuJ04atKshZRzFqSAZIcJIhruvMAVk96R0yEK8=
+
+Name: org/junit/platform/launcher/tagexpression/Operators.class
+SHA-256-Digest: DEv7cZWQ6PKr+A8jABK4kKO2hOZW3QoEl4zXcYiLCm8=
+
+Name: org/junit/platform/launcher/tagexpression/TagExpressions$3.class
+SHA-256-Digest: l/CcuttPaU4njInmSYJHqJ2YDeyxHS+C8svHrDIpFr8=
+
+Name: org/junit/platform/launcher/core/ExecutionListenerAdapter.class
+SHA-256-Digest: y86VBms7Lb6iDBrqUCfdVPvofOK80TtxispFx+gELcw=
+
+Name: org/junit/platform/launcher/listeners/TestExecutionSummary.class
+SHA-256-Digest: sYrvE3BLPD8/0ryqPVyAr6UJqSN32ArDBlkwPj5vDGU=
+
+Name: org/junit/platform/launcher/listeners/MutableTestExecutionSummary$
+ DefaultFailure.class
+SHA-256-Digest: RXXzYYF4yBk5nl8beJW97RRcZKwrKrVmbPs1dHCAv4s=
+
+Name: org/junit/platform/launcher/core/LauncherConfigurationParameters$P
+ arameterProvider.class
+SHA-256-Digest: h21vyP2RQMAWry0qZWGuyYO/iXygYqXdkcfa5QT6IYA=
+
+Name: org/junit/platform/launcher/EngineFilter$Type.class
+SHA-256-Digest: unmmrNjMf3k4jDgruetIO03TS2YFg72CI3ALvv3+kgs=
+
+Name: org/junit/platform/launcher/core/StreamInterceptor.class
+SHA-256-Digest: EKPRDk8H0HQQR63bttqeFqojV7K1FyXhA4u8lWZIXPs=
+
+Name: org/junit/platform/launcher/listeners/SummaryGeneratingListener$1.
+ class
+SHA-256-Digest: 18PQl26E3hCmNb1ksApftUU9TEA7SKbGOGztQZxDXjs=
+
+Name: org/junit/platform/launcher/TestIdentifier.class
+SHA-256-Digest: LtNjAq0YRHpf8RX8nOCVT5D1vI0QkmWrQ6/GmqxImto=
+
+Name: org/junit/platform/launcher/tagexpression/TagExpressions$4.class
+SHA-256-Digest: haamqEkHFruqbu7aALdRq9+AexutnJoCRaR329W0o6Q=
+
+Name: about.html
+SHA-256-Digest: dq2S42bgwzmqdOow8jQRrDzpqP/w38o95gYDkvdZSJ8=
+
+Name: META-INF/LICENSE.md
+SHA-256-Digest: WqTNRMERrdF40cLi/jbVikhAEsgBZ9+SX4Js1k1BG/A=
+
+Name: META-INF/LICENSE-notice.md
+SHA-256-Digest: x9hD4Pr4olEnjJIg9rUyakKgHwi4VcHshxvO9iEafio=
+
+Name: org/junit/platform/launcher/TestExecutionListener.class
+SHA-256-Digest: ta0TMlGUdHYr1d7JPsKJabC22/JFp/4wlzr6KsGl97U=
+
+Name: org/junit/platform/launcher/core/DefaultLauncherSession.class
+SHA-256-Digest: M7Xwa2+oxG2WnseyveOc9PXiq4oPMHv/cTuauuw6APQ=
+
+Name: org/junit/platform/launcher/listeners/discovery/AbortOnFailureLaun
+ cherDiscoveryListener.class
+SHA-256-Digest: 2acd1A2CpFMt83GSJyj0o0JZaBjVisW+0X30DaWHbtQ=
+
+Name: org/junit/platform/launcher/PostDiscoveryFilter.class
+SHA-256-Digest: dQ/SUsS+uiav80CFmn7Tgg4Gw8jzrID5NjKdwUtUXs8=
+
+Name: org/junit/platform/launcher/TestPlan.class
+SHA-256-Digest: JhaKSi26i9mJ8fzjyc8BTFrKjmsF11exTIioLBArjFY=
+

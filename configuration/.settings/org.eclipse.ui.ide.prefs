@@ -1,0 +1,6 @@
+MAX_RECENT_WORKSPACES=10
+RECENT_WORKSPACES=/home/mariya.cherian@beo.in/Documents/rest_source/trunk/rest_trunk_wrkspace\n/home/mariya.cherian@beo.in/Documents/passar_source/atlas3_passar_Async_Thread_wrkspcs\n/home/mariya.cherian@beo.in/Documents/test_wrkscpe\n/home/mariya.cherian@beo.in/Documents/atlas3/beta/beta_wrkspace\n/home/mariya.cherian@beo.in/Documents/passar_source/passar_wrkspce\n/home/mariya.cherian@beo.in/Documents/2023/December/dec_wrkspace\n/home/mariya.cherian@beo.in/Documents/2023/November/nov_passar_wrkspac\n/home/mariya.cherian@beo.in/Documents/atlas3/trunk/trunk_wrkspce\n/home/mariya.cherian@beo.in/Documents/workspace/atlas3_trunk\n/home/mariya.cherian@beo.in/Documents/2023/December/msg_send-cmmnd_wrkspc
+RECENT_WORKSPACES_PROTOCOL=3
+SHOW_RECENT_WORKSPACES=true
+SHOW_WORKSPACE_SELECTION_DIALOG=true
+eclipse.preferences.version=1
