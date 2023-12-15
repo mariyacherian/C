@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.1
+Build-Jdk-Spec: 11
+
+Name: META-INF/maven/org.sonarsource.sonarlint.eclipse/org.sonarlint.ecl
+ ipse.feature/pom.xml
+SHA-256-Digest: fnLU17147BzLfIhbXSi9JavMkgplO6hmD+KoFhBNTu0=
+
+Name: META-INF/maven/org.sonarsource.sonarlint.eclipse/org.sonarlint.ecl
+ ipse.feature/pom.properties
+SHA-256-Digest: lA+GGWvB7fZhUExSwtOmCL+6UCXcORMgeS17T1iJGoE=
+
+Name: feature.xml
+SHA-256-Digest: LkZSqts7sJ8czRgEHDchrqKooNb5rEWJrVHACqHBAps=
+
+Name: feature.properties
+SHA-256-Digest: kDbtmbdn2NiJ8YuaiFJz1/0LAdCirYEtzC/ZGkYnq5M=
+

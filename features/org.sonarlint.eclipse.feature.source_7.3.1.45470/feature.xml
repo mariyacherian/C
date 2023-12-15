@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.sonarlint.eclipse.feature.source" version="7.3.1.45470" plugin="org.sonarlint.eclipse.ui" label="%feature_name" provider-name="%provider_name">
+  <description url="https://www.sonarlint.org/">
+      %description
+   </description>
+  <copyright url="https://www.sonarlint.org/">
+      %copyright
+   </copyright>
+  <license url="http://www.gnu.org/licenses/lgpl.txt">
+      %license
+   </license>
+  <includes id="org.sonarlint.eclipse.feature" version="7.3.1.45470"/>
+  <plugin id="org.sonarlint.eclipse.core.source" version="7.3.1.45470" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.sonarlint.eclipse.ui.source" version="7.3.1.45470" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.sonarlint.eclipse.cdt.source" version="7.3.1.45470" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.sonarlint.eclipse.jdt.source" version="7.3.1.45470" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.sonarlint.eclipse.m2e.source" version="7.3.1.45470" download-size="0" install-size="0" unpack="false"/>
+</feature>
